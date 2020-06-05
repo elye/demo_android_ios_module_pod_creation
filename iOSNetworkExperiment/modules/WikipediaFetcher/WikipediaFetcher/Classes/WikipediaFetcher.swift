@@ -7,14 +7,14 @@ import Alamofire
 import SwiftyJSON
 import Fetcher
 
-class WikipediaFetcher {
+public class WikipediaFetcher {
     private static let url = "https://en.wikipedia.org/w/api.php"
     private let fetcher = Fetcher()
 
     private let onResponse: () -> ()
     private let showResult: (String) -> ()
 
-    init (onResponse: @escaping () -> (),
+    public init (onResponse: @escaping () -> (),
           showResult: @escaping (String) -> ()) {
         self.onResponse = onResponse
         self.showResult = showResult

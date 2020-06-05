@@ -6,6 +6,6 @@ target 'NetworkExperiment' do
   use_frameworks!
 
   # Pods for NetworkExperiment
-  pod ‘SwiftyJSON’, ‘5.0.0’
+  pod 'WikipediaFetcher', :path => './modules/WikipediaFetcher'
   pod 'Fetcher', :path => './modules/Fetcher'
 end

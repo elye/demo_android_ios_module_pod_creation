@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B0CB4BA248A5C290062EA9A /* WikipediaFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CB4B9248A5C290062EA9A /* WikipediaFetcher.swift */; };
 		3BCF06F022C86FDB00D2B670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF06EF22C86FDB00D2B670 /* AppDelegate.swift */; };
 		3BCF06F222C86FDB00D2B670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF06F122C86FDB00D2B670 /* ViewController.swift */; };
 		3BCF06F522C86FDB00D2B670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCF06F322C86FDB00D2B670 /* Main.storyboard */; };
@@ -18,7 +17,6 @@
 
 /* Begin PBXFileReference section */
 		0FC51472DDA1552AF484B33D /* Pods-NetworkExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkExperiment.release.xcconfig"; path = "Target Support Files/Pods-NetworkExperiment/Pods-NetworkExperiment.release.xcconfig"; sourceTree = "<group>"; };
-		3B0CB4B9248A5C290062EA9A /* WikipediaFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaFetcher.swift; sourceTree = "<group>"; };
 		3BCF06EC22C86FDB00D2B670 /* NetworkExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCF06EF22C86FDB00D2B670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BCF06F122C86FDB00D2B670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 				3BCF06F622C86FDC00D2B670 /* Assets.xcassets */,
 				3BCF06F822C86FDC00D2B670 /* LaunchScreen.storyboard */,
 				3BCF06FB22C86FDC00D2B670 /* Info.plist */,
-				3B0CB4B9248A5C290062EA9A /* WikipediaFetcher.swift */,
 			);
 			path = NetworkExperiment;
 			sourceTree = "<group>";
@@ -206,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B0CB4BA248A5C290062EA9A /* WikipediaFetcher.swift in Sources */,
 				3BCF06F222C86FDB00D2B670 /* ViewController.swift in Sources */,
 				3BCF06F022C86FDB00D2B670 /* AppDelegate.swift in Sources */,
 			);

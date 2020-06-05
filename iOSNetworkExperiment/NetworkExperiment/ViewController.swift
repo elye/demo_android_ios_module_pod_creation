@@ -6,6 +6,7 @@
 import Alamofire
 import SwiftyJSON
 import UIKit
+import WikipediaFetcher
 
 class ViewController: UIViewController {
 

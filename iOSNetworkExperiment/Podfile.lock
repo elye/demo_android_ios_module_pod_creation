@@ -3,26 +3,31 @@ PODS:
   - Fetcher (0.1.0):
     - Alamofire (= 4.8.1)
   - SwiftyJSON (5.0.0)
+  - WikipediaFetcher (0.1.0):
+    - Fetcher (= 0.1.0)
+    - SwiftyJSON (= 5.0.0)
 
 DEPENDENCIES:
   - Fetcher (from `./modules/Fetcher`)
-  - SwiftyJSON (= 5.0.0)
+  - WikipediaFetcher (from `./modules/WikipediaFetcher`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - SwiftyJSON
   trunk:
     - Alamofire
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   Fetcher:
     :path: "./modules/Fetcher"
+  WikipediaFetcher:
+    :path: "./modules/WikipediaFetcher"
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   Fetcher: 3cdf3cb872beec8f82ab823643b69c7346c34840
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  WikipediaFetcher: 5df07b9e0e37cae4c0242346bdd1850b41d52e33
 
-PODFILE CHECKSUM: 00c77d0df03b741acbf65aa41696757b6c62787c
+PODFILE CHECKSUM: 5a7368510eef477f06bc328f6439c76b5cb2475e
 
 COCOAPODS: 1.8.4
