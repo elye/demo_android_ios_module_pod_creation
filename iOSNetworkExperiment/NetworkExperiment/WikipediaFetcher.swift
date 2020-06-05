@@ -5,6 +5,7 @@
 
 import Alamofire
 import SwiftyJSON
+import Fetcher
 
 class WikipediaFetcher {
     private static let url = "https://en.wikipedia.org/w/api.php"
@@ -19,7 +20,6 @@ class WikipediaFetcher {
         self.showResult = showResult
     }
 
-    
     public func fetchData(searchText: String)
         -> DataRequest {
             

@@ -6,7 +6,6 @@ target 'NetworkExperiment' do
   use_frameworks!
 
   # Pods for NetworkExperiment
-  pod ‘Alamofire’, ‘4.8.1’
   pod ‘SwiftyJSON’, ‘5.0.0’
-
+  pod 'Fetcher', :path => './modules/Fetcher'
 end

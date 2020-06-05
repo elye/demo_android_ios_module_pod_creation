@@ -5,9 +5,11 @@
 
 import Alamofire
 
-class Fetcher {
+public class Fetcher {
 
-    func fetch(url: String,
+    public init() {}
+
+    public func fetch(url: String,
                parameters: Parameters,
                onResponse: @escaping () -> (),
                onSuccess: @escaping (Any) -> (),
