@@ -1,11 +1,11 @@
-package com.elyeproj.networkexperiment
+package com.elyeproj.fetcher
 
-import com.google.gson.JsonSyntaxException
 import okhttp3.HttpUrl
+import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.Request
 
-class Fetcher(userAgentInterceptor: UserAgentInterceptor) {
+class Fetcher(userAgentInterceptor: Interceptor) {
 
     private val httpClient by lazy {
         OkHttpClient
