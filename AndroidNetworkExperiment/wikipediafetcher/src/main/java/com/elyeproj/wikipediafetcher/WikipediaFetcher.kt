@@ -1,4 +1,4 @@
-package com.elyeproj.networkexperiment
+package com.elyeproj.wikipediafetcher
 
 import com.google.gson.Gson
 import com.google.gson.JsonSyntaxException
@@ -8,8 +8,9 @@ import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 import okhttp3.HttpUrl
 import com.elyeproj.fetcher.Fetcher
+import okhttp3.Interceptor
 
-class WikipediaFetcher(userAgentInterceptor: UserAgentInterceptor) {
+class WikipediaFetcher(userAgentInterceptor: Interceptor) {
 
     object Model {
         data class Result(val query: Query)
